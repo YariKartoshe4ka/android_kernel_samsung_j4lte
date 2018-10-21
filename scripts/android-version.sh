@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 MAJOR=$(echo $1 | cut -d '.' -f 1)
 MINOR=$(echo $1 | cut -d '.' -f 2)
